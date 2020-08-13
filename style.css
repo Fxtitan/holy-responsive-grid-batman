@@ -101,5 +101,42 @@
   #footer {
     grid-area: footer;
   }
+}
+/* mobile */
+
+/* tablet */
+@media (min-width: 1100px) {
+  #app {
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "article-1 article-1 ads"
+    "article-2 article-2 ads"
+    "footer footer footer";
+  }
+
+  #header {
+    grid-area: header;
+  }
+
+  #nav {
+    grid-area: nav;
+  }
+
+  #article-1 {
+    grid-area: article-1;
+  }
+
+  #article-2 {
+    grid-area: article-2;
+  }
+
+  #ads {
+    grid-area: ads;
+  }
+
+  #footer {
+    grid-area: footer;
+  }
 
 }
