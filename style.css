@@ -113,6 +113,9 @@
     "article-1 article-1 ads"
     "article-2 article-2 ads"
     "footer footer footer";
+
+    grid-template-rows:20% 10% 20% 20% 30% ;
+    grid-template-columns: 20% 30% ;
   }
 
   #header {
