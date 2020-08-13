@@ -67,3 +67,39 @@
   /* grid-area: ftr; */
   background-color: #f08a4b;
 }
+
+/* mobile */
+
+@media (max-width: 800px) {
+  #app {
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "article-1 article-1 article-1"
+    "article-2 article-2 article-2"
+    "ads ads ads"
+    "footer footer footer";
+
+    grid-template-rows: 20% 10% 15% 10% 20% 25%;
+  }
+  #nav {
+    grid-area: nav;
+  }
+
+  #article-1 {
+    grid-area: article-1;
+  }
+
+  #article-2 {
+    grid-area: article-2;
+  }
+
+  #ads {
+    grid-area: ads;
+  }
+
+  #footer {
+    grid-area: footer;
+  }
+
+}
